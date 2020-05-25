@@ -1,6 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
 .social-card-info-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.dashboard-container {
+  background-color: hsl(230, 17%, 14%);
+  color: white;
+  padding: 20px;
+}
+
+.dashboard-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.dashboard-info-content {
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid hsl(228, 34%, 66%);
+  margin-bottom: 20px;
+}
+
+.dashboard-info-content p:first-child {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dashboard-info-content p:last-child {
+  color: hsl(228, 34%, 66%);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.social-info-container {
+  margin-top: 10px;
+}
+
+.social-card-info-container {
+  width: 100%;
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.social-card-info-container:first-child {
+  border-top: 3px solid;
+  border-radius: 5px 5px 0 0;
+  border-image-source: linear-gradient(
+    45deg,
+    rgb(0, 143, 104),
+    rgb(250, 224, 66)
+  );
+  border-image-slice: 1;
+}
+
+.name {
+  font-weight: 400;
+  color: hsl(228, 34%, 66%);
+  margin-top: 15px;
+}
+
+.follower-count {
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.follower-title {
+  margin-bottom: 20px;
+  color: hsl(228, 34%, 66%);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+
+.follower-daily {
+  font-size: 13px;
 }
