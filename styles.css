@@ -125,9 +125,23 @@
 
 .detail-bottom span:first-child {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 600;
+}
+
+.detail-bottom span:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-bottom span:nth-child(2) img {
+  margin-right: 5px;
 }
 
 .detail-bottom .green-up {
   color: hsl(163, 72%, 41%);
+}
+
+.detail-bottom .red-down {
+  color: hsl(356, 69%, 56%);
 }
