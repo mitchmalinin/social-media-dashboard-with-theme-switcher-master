@@ -105,3 +105,29 @@
   margin: 20px 0;
   border-radius: 5px;
 }
+
+.detail-top,
+.detail-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.detail-bottom {
+  margin-bottom: 10px !important;
+}
+
+.detail-top span {
+  color: hsl(228, 34%, 66%);
+  font-weight: 400;
+}
+
+.detail-bottom span:first-child {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.detail-bottom .green-up {
+  color: hsl(163, 72%, 41%);
+}
