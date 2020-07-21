@@ -54,17 +54,53 @@
   width: 100%;
   background-color: hsl(228, 28%, 20%);
   border-radius: 5px;
-  margin: 20px 0;
   padding: 20px;
 }
 
-.social-card-info-container:first-child {
-  border-top: 3px solid;
+.outside-container {
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.social-card-info-container.first {
+  border-top: 5px solid;
   border-radius: 5px 5px 0 0;
   border-image-source: linear-gradient(
     45deg,
-    rgb(0, 143, 104),
-    rgb(250, 224, 66)
+    hsl(202, 100%, 40%),
+    hsl(202, 100%, 40%)
+  );
+  border-image-slice: 1;
+}
+.social-card-info-container.second {
+  border-top: 5px solid;
+  border-radius: 5px 5px 0 0;
+  border-image-source: linear-gradient(
+    45deg,
+    hsl(202, 83%, 47%),
+    hsl(202, 100%, 43%)
+  );
+  border-image-slice: 1;
+}
+
+.social-card-info-container.third {
+  border-top: 5px solid;
+  border-radius: 5px 5px 0 0;
+  border-image-source: linear-gradient(
+    45deg,
+    hsl(56, 91%, 57%),
+    hsl(330, 87%, 43%)
+  );
+  border-image-slice: 1;
+}
+.social-card-info-container.fourth {
+  border-top: 5px solid;
+  border-radius: 5px 5px 0 0;
+  border-image-source: linear-gradient(
+    45deg,
+    hsla(348, 97%, 39%, 1),
+    hsla(348, 97%, 39%, 1)
   );
   border-image-slice: 1;
 }
@@ -73,6 +109,12 @@
   font-weight: 400;
   color: hsl(228, 34%, 66%);
   margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.name span:first-child {
+  margin-right: 10px;
 }
 
 .follower-count {
