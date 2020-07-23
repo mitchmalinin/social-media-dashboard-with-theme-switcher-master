@@ -188,10 +188,10 @@
   margin-right: 5px;
 }
 
-.detail-bottom .green-up {
+.green-up {
   color: hsl(163, 72%, 41%);
 }
 
-.detail-bottom .red-down {
+.red-down {
   color: hsl(356, 69%, 56%);
 }
