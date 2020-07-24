@@ -139,6 +139,13 @@
 
 .follower-daily {
   font-size: 13.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follower-daily img {
+  margin-right: 5px;
 }
 
 .social-details-container {
